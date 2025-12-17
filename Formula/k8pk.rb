@@ -7,18 +7,18 @@ class K8pk < Formula
   on_macos do
     on_arm do
       url "https://github.com/vee-sh/k8pk/releases/download/v0.9.0/k8pk-v0.9.0-aarch64-apple-darwin.tar.gz"
-      sha256 "201b8393a24dad6ac18f640d3807e6bad784ea954fa4975d3a558779f1b4e5a7"
+      sha256 ""
     end
     on_intel do
       url "https://github.com/vee-sh/k8pk/releases/download/v0.9.0/k8pk-v0.9.0-x86_64-apple-darwin.tar.gz"
-      sha256 "61cfba578a0552a3b660f9e7c75842189b048894c2f38eac5b54f1cdf5bcb405"
+      sha256 "ea2bf53e725a6025d20f8d138a26a738c9b478ed191cf392fce35321073613d7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/vee-sh/k8pk/releases/download/v0.9.0/k8pk-v0.9.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "dfc48811bcc3a4395b9b50b1dcefed0bfa7028e9375cf9161b4a23c08f8cca7a"
+      sha256 "8cad88c051dae681f0b806436cf18ea7df3ffa227c5f03d802d2d1ba00e658ef"
     end
   end
 
