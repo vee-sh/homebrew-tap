@@ -4,30 +4,30 @@
 class Veessh < Formula
   desc "Console connection manager for SSH/SFTP/Telnet/Mosh/SSM/GCloud"
   homepage "https://github.com/vee-sh/veessh"
-  version "0.6.0"
+  version "0.7.0"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
       url "https://github.com/vee-sh/veessh/releases/download/v#{version}/veessh_v#{version}_darwin_amd64.tar.gz"
-      sha256 "03cc06680cfd8f1bb3d62f4e1517b41d7189025478bafc7a130966bd2988ca52"
+      sha256 "346e9303b3e79cfe52c2940b4d0607ff76083e3a411bae4a0ec3a5a9f7d389f5"
     end
 
     on_arm do
       url "https://github.com/vee-sh/veessh/releases/download/v#{version}/veessh_v#{version}_darwin_arm64.tar.gz"
-      sha256 "253a693878891618cbcd74c0b40955fe37d23d55784506a2fad23723d9a11334"
+      sha256 "3ffc01b838f80f3262125d7a73a4e271c78ed89f0118e4495a87dbaca20244a4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/vee-sh/veessh/releases/download/v#{version}/veessh_v#{version}_linux_amd64.tar.gz"
-      sha256 "aeed8286d6985272a63edf8381a6afda47ad88cd5e862367a0ec8ab07a8f576d"
+      sha256 "4608e6d7325ffa4b5c5d9b0377badbf2e82c7bfd2d61c5b48b10c090cc30fa43"
     end
 
     on_arm do
       url "https://github.com/vee-sh/veessh/releases/download/v#{version}/veessh_v#{version}_linux_arm64.tar.gz"
-      sha256 "b82c859fb48b7e43035dd082eb1cec49a42d004c14fcf10b58adf4f4b479a083"
+      sha256 "c457e4c9b1b2097381e4e68b13a6af2078eb40a1898620c72219ede4cb58d78e"
     end
   end
 
