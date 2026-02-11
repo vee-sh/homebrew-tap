@@ -1,24 +1,24 @@
 class K8pk < Formula
   desc "Kubernetes context picker - cross-terminal k8s context/namespace switcher"
   homepage "https://github.com/vee-sh/k8pk"
-  version "1.13.2"
+  version "1.13.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/vee-sh/k8pk/releases/download/v1.13.2/k8pk-v1.13.2-aarch64-apple-darwin.tar.gz"
-      sha256 "3d580d0640ed25d4cb9347ce71676f0436b007639b7ae55d86a43e0c71040dea"
+      url "https://github.com/vee-sh/k8pk/releases/download/v1.13.3/k8pk-v1.13.3-aarch64-apple-darwin.tar.gz"
+      sha256 "0f831adee024e9e0b8e246e9607cdfc29c5557b76f5b9e5c4cd4c4cd3cbe3b87"
     end
     on_intel do
-      url "https://github.com/vee-sh/k8pk/releases/download/v1.13.2/k8pk-v1.13.2-x86_64-apple-darwin.tar.gz"
-      sha256 "36475fb0aa7b28781fdf68b1a18849074f38ce47d2bddb26929b9c5e2b3f2f04"
+      url "https://github.com/vee-sh/k8pk/releases/download/v1.13.3/k8pk-v1.13.3-x86_64-apple-darwin.tar.gz"
+      sha256 "972d1723adb7f29c7ab3ab3d96544fe4f0ede174e3db4a73513e4ef36042c7ec"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/vee-sh/k8pk/releases/download/v1.13.2/k8pk-v1.13.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "92d009b11aef81b521a616ac673c6912463f00d0a2e4ac0ad650a9f25a2cd115"
+      url "https://github.com/vee-sh/k8pk/releases/download/v1.13.3/k8pk-v1.13.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6a3c0c91000ddf8f08c518a628b9b8c9dcaa74b7921dd8aeca0bf0236251a38e"
     end
   end
 
