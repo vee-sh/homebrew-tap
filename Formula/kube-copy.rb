@@ -1,26 +1,26 @@
 class KubeCopy < Formula
   desc "kubectl/oc plugin to copy Kubernetes resources across namespaces and clusters"
   homepage "https://github.com/vee-sh/kubecopy"
-  version "v0.1.3"
+  version "v0.1.4"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/vee-sh/kubecopy/releases/download/v0.1.3/kubectl-copy-darwin-arm64.tar.gz"
-      sha256 "a356b0fe24a7947c0872d8484501dd966358d6bb755bdbc12b5756d3f25ff4e0"
+      url "https://github.com/vee-sh/kubecopy/releases/download/v0.1.4/kubectl-copy-darwin-arm64.tar.gz"
+      sha256 "c35e952e9866558da40ca7524146c28281775b916cdf183411f30ed0382b2201"
     else
-      url "https://github.com/vee-sh/kubecopy/releases/download/v0.1.3/kubectl-copy-darwin-amd64.tar.gz"
-      sha256 "abc18988b4721e2cbe24231a377ef7f3287146da908aac4a8335a20301ceb829"
+      url "https://github.com/vee-sh/kubecopy/releases/download/v0.1.4/kubectl-copy-darwin-amd64.tar.gz"
+      sha256 "561a4fb7aac3228dfdb1176b368e3a72c09c000aceca88a6456437920541cace"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/vee-sh/kubecopy/releases/download/v0.1.3/kubectl-copy-linux-arm64.tar.gz"
-      sha256 "a9495de553e3f50806248f6cd0a1a00b5e7d7b8109a6b52e15c7bc5381f409b3"
+      url "https://github.com/vee-sh/kubecopy/releases/download/v0.1.4/kubectl-copy-linux-arm64.tar.gz"
+      sha256 "3f0107bfdb175a95434a9264d54ea8d54e938fee4b2bcef801dd51807bef25f9"
     else
-      url "https://github.com/vee-sh/kubecopy/releases/download/v0.1.3/kubectl-copy-linux-amd64.tar.gz"
-      sha256 "b0c7b8f48b90d877e8ef6555737f1b7564a4b294eca8bb7573f766fa5a032fb3"
+      url "https://github.com/vee-sh/kubecopy/releases/download/v0.1.4/kubectl-copy-linux-amd64.tar.gz"
+      sha256 "8ee8f84b286d679ec18046bea9a1779db04743d73f7daf0b96ca5d29dba13276"
     end
   end
 
